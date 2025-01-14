@@ -1,0 +1,90 @@
+//09-01-2025
+
+1.HTTP error/status codes     //Stateless Protocol
+    common code like
+        200 - ok
+        404 - not found
+        500 - internal server error
+
+2.Cookies                                           //JWD token
+    Small amount of txt file
+    saved when you visit the web site
+    This help the website to remember info about your visit
+
+3.VPN(virtual private network)
+    VPN Create a secure connection
+
+    types of VPN
+        1.remote access VPN - Tunneling
+        2.site to site VPN  - connect two or more separate private network
+        3.Cloud VPN - secure Cloud infra
+        4.mobile VPN - 
+        5.SSL VPN -  secure Socket layer VPN
+        6.double VPN - two VPN instead of one
+
+4.Checksum
+    A value used to verify
+
+5.ip packet structure
+6.icmp
+    error detection/reporting
+    network layer Protocol
+
+7.ping - utlity
+    does icmp echo requests
+    check round trip time
+    //traceroute - gives the number of hops
+
+8.ARP(address resolution Protocol)
+    Ip to MAC
+    Datalink Layer
+    Ip  - logical address
+          0 - 255 is the range
+    MAC - unique physical address
+          0 - 255 not in this range
+    
+    ARP requests/replay
+
+9.TCP/Ip Layer
+    Application Layer
+    Transport Layer
+    Network Layer
+    Data Link Layer
+
+10.Subnetting
+    reserved 
+        network id - first ip
+        broadcast id - last ip
+        //cidr
+        //32 - static
+        //24 - last part could be changed 192.168.1.0 - 192.168.1.255
+
+11.VPC
+    region
+    data center
+    Avilablity zones
+    
+12.NAT(Network address transalation)
+    //default rought - all options are lost this would be used 
+    de-NATTing - it's own to the Hosts
+    replace the private ip to the public ip with its own ip(router/gateway).it also transalate this back to the private address
+
+13.SSL/TLS/HTTPS
+        Symetric key - both key are same
+        Asymetric key - public key for encryption but decryption is done by private key
+
+14.microservices
+    //Authentication - can be used by other application
+    //Autherisation - role which we used by only in our db
+
+    Load balancing - all the load can't be going to a Single instances
+                     reg with the load balancer if its Avilablity or not
+                     does service discovery - to know a new service comes up and services is down
+
+                     talking in highlevel - Syn and asyn communication
+                     async communication - public subscribe model and queue model 
+
+                     no load balancing in asyn communication
+                     public sub model it can do its own load balancing
+
+                     

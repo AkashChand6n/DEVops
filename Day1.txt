@@ -1,0 +1,80 @@
+OSI model 
+this is a conceptual thing
+
+
+1.Physical layer
+    connection which is physical 
+
+2.Datalink layer
+    node to node transfer
+    error corrections
+
+3.Network layer
+    Routing 
+    Ip addressing 
+    The best route for delivery.It also handles the routing of packets across networking
+
+4.Transport layer
+    Data delivery 
+    order of the data 
+
+5.Session layer
+    manages the connnection
+
+6.Presentation layer
+    encryption and formatting
+
+7.Application layer
+    Create data
+
+
+
+1.Client and Server Model
+2.OSI model 
+3.encoding
+4.encryption
+5.tcp/ip
+6.icmp
+7.ARP
+8.IGMP
+9.NIC
+10.Submarine Cable
+11.Fiber-optic cable
+12.nodes/Hosts/Client and servers/Protocol
+13.LAN/MAN/WAN
+14.Modem vs router
+    modem-  Convert digital signal to analoge and viceversa
+            conncet to the ISP
+            Minimal security
+
+    router- Routes data packet btw devices in a network
+            Connect to a modem and distribute the internet
+            Have firewall and security
+
+15.scalablity and elasticity
+    vertical - scale up/down
+    horizontal - scale in/out
+    
+    Load balancer
+    service dicovery
+
+    Application Stateless
+
+16.NW technology
+    Bus     -   Single connection   
+    Ring    -   circular path
+    Tree    -   
+    Mesh    -   Everything is connected to each other
+
+17. peer to peer
+
+18.Socket and ports
+    Sockets - Combination of ip and port    
+    Port    -
+
+19.HTTP
+    Method 
+        GET     - Retrieve Data (There won't be any json)
+        POST    - Create Data   (json format)
+        PUT     - Update Data   (json format)
+        DELETE  - Remove Data

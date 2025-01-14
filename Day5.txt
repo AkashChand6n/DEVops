@@ -1,0 +1,23 @@
+//13-01-2025
+
+git and github
+
+    central repo
+    local repo
+    distributed repo
+
+    Git features
+        distributed
+        compatible
+        non-linear
+        branching
+        lightweight
+        speed
+        open source
+        reliable
+        secure
+        economical
+
+cd ~ - move to home dir 
+cd - - move back to prev
+cd   - move to the home dir

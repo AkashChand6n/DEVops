@@ -1,0 +1,118 @@
+//11-01-2025
+
+1.Data centers
+    can be used to store and processing
+
+    key components of data center
+        server - processing
+        storage system - storage devices
+        network instances - network devices
+        power infr - power distribution
+        cooling system - manintain temp
+        security system - protection of the data
+
+    types of data center
+        On-premise DC
+            owned by the operation
+            they are complete control
+        
+        colocation data center
+            lease space in a data center facility
+        
+        cloud data center
+            provide various cloud service
+                IaaS
+                PaaS
+                Saas
+            operation is done by the provider
+            they are large scale data center
+
+    key consideration for data center design and operation
+        Reliablity
+            Ensuring high Avilablity trough redundancy and fault tolerance
+
+        security
+            protection of data and infrastructure
+
+        scalablity
+            designing the data center to accommodate future growth
+        
+        energy efficiency
+            optimizing power usage to reduce
+
+        Disaster Recovery
+            recovery from Disaster
+
+2.NAS/DAS/SAN
+    NAS - network access storage
+            file level access
+            network file system(nfs)
+
+    DAS - direct access storage
+            devices specific access
+
+    SAN - storage area network
+            block level access
+
+3.RAID
+    RAID 0
+    RAID 1
+    RAID 5
+    RAID 6
+    RAID 10(1+0)
+        combines mirroring and striping
+
+4.backup and recovery
+    backup - Create copy  of the data
+    recovery - restoring from the backup
+    recovery time objective(rto) - target time to which a system or application must be restored after an outage
+    recovery point objective(rpo) - max amount if data loss that a organization can tolerate
+
+    types of backup
+        Full backup
+        incremental backup
+        diffrential backup
+
+    backup stratagies
+        3-2-1 stratagies
+            one would be of-site
+            two diffrent media types
+            three copy
+    
+5.packet filtering firewall
+  
+  stateful inspection firewall
+
+  application level gateway(proxy firewall)
+
+  next generation firewall
+
+6.common network security threat
+    Malware
+    phishing attack
+    DOS attack
+    man-in-the-middle
+    SQL injection
+
+7.Why load balancing is importance
+
+    Common load balancing technique
+        round robin
+        least connection
+        least response time
+        source ip hashing
+        weighted round robin
+
+    type of load balancer
+        hardware load balancer
+        software load balancer
+
+    benefits of load balancer
+        improved performance
+        enhanced Reliablity
+        increased scalablity
+        cost efficiency
+    
+    choosing the right load balancer
+        
+

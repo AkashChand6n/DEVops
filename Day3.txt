@@ -1,0 +1,105 @@
+//10-01-2024
+
+//Static NAT
+    static ip address
+//Dynamic NAT
+    ip is Dynamic
+//microservices
+    Load balancer
+    not an in memory call
+    divided based on the funcionality
+    here we could grow
+    microservices bring some new problems 
+//NAT table
+    this has a to and from address
+    when leaving the private add 
+    port also used 
+    the public add would be unique
+//0.0.0.0/0
+    /0 subnet mask
+    all the ip address in the world
+    this could be 2^32
+    Hosts are represented as 0.0.0.0/0
+    //loop back devices
+//VPC
+//queue/publisher
+
+
+1.Stateless and stateful firewall
+    stateful - remember the connection
+    Stateless - doesn't remember the connection (considered as a new connection)
+
+2.Gateway 
+    ensure only way to come in
+    increase the security
+    microservices are not directly connected
+
+3.PAT(personal access token)
+    instead of giving userid and password you can share PAT
+
+4.server farm
+    collection of physical server that work together to delivey service
+    people don't need dedicate devices
+    scalible and reliable
+
+5.Ipsec
+    secure ip communication trough encryption and Authentication
+    SA define the encryption algorithm,lifetime of the connection and Authentication method 
+
+6.firewall
+    ingress
+    ex
+    work in network Layer
+
+7.treat,vulnerablity and risk
+    vulnerablity - A weakness in a system
+    treat - a potentional danger
+    risk -the likelihood of a threat exploiting a vulnerablity and the potentional inpact of that  exploitation
+
+8.Reversed proxy
+    reverse proxy is a server that sits between client devices (such as web browsers) and a web server (or multiple web servers). 
+    It acts as an intermediary that handles incoming requests from clients and forwards them to the appropriate backend server. 
+    Once the backend server processes the request, the reverse proxy sends the response back to the client.
+
+9.Ipv4 and Ipv6
+     Ipv4-  32 bit
+            dotted decimal
+            manual or DHCP for address config
+
+
+
+     Ipv6-  128 bit
+            Hexadecimal
+            manual,slaac and DHCPV6
+
+10.3 way handshake
+    ISN number which is randomly Created
+    sync, sync- ack, ack
+
+11. IEEE 802.11 (wifi)
+
+12.DHCP
+
+13.switch and router
+
+14.port forwarding
+
+15.Hub and switch
+    Hub -   work at the physical layer
+            can listen to all the msg connected to this
+    switch - virtual network is Created
+             is full duplex
+
+16.VLAN - virtual lan 
+
+17.port mapping
+    also known as port forwarding
+    technique used to allow traffic from the internet to access service or devices on a private network
+
+18.cidr and subnet
+
+19.switch/hub/gateway/bridge/router
+    Gateway - help to connect two diffrent network
+    bridge - connect network segments
+    
+20.
